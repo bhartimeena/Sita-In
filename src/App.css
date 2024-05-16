@@ -1,0 +1,46 @@
+
+/* src/App.css */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.group {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.group label {
+  margin-right: 10px;
+}
+
+.group .statuses span {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.btn-link {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.btn-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
