@@ -1,0 +1,45 @@
+   /* src/ groupList/ GroupList.css */
+   
+.group-list {
+    margin-top: 20px;
+  }
+  
+  .group-list-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .group-list-item-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .group-list-item-title {
+    margin-left: 10px;
+  }
+  
+  .group-list-controls {
+    margin-left: auto;
+  }
+  
+  .group-list-label {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .group-list-input {
+    width: 50px;
+  }
+  
+  .group-list-arrow {
+    margin: 0 5px;
+  }
+  
+  .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  

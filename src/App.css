@@ -1,6 +1,6 @@
 
 /* src/App.css */
-.container {
+/* .container {
   width: 80%;
   margin: auto;
 }
@@ -43,4 +43,71 @@ h1 {
   color: red;
   text-align: center;
   margin-top: 20px;
+} */
+
+
+/* App.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-add {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-status {
+  background-color: #008CBA;
+  color: white;
+}
+
+.error {
+  color: red;
+}
+
+/* Group.css */
+.group {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.group-title {
+  margin-left: 10px;
+}
+
+.group-controls {
+  margin-left: auto;
+}
+
+.group-label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.group-input {
+  width: 50px;
 }
